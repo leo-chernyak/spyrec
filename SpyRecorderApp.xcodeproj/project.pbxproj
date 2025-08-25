@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4276E8EC2E5C7F6C00F5E05A /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4276E8CD2E5B8FE400F5E05A /* WidgetKit.framework */; };
+		4276E8ED2E5C7F6C00F5E05A /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4276E8CF2E5B8FE400F5E05A /* SwiftUI.framework */; };
+		4276E8FE2E5C7F6D00F5E05A /* Spy RecExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4276E8EB2E5C7F6C00F5E05A /* Spy RecExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4276E7992E5B75C700F5E05A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4276E7802E5B75C600F5E05A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4276E7872E5B75C600F5E05A;
+			remoteInfo = SpyRecorderApp;
+		};
+		4276E7A32E5B75C700F5E05A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4276E7802E5B75C600F5E05A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4276E7872E5B75C600F5E05A;
+			remoteInfo = SpyRecorderApp;
+		};
+		4276E8FC2E5C7F6D00F5E05A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4276E7802E5B75C600F5E05A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4276E8EA2E5C7F6C00F5E05A;
+			remoteInfo = "Spy RecExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4276E8E62E5B8FE600F5E05A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4276E8FE2E5C7F6D00F5E05A /* Spy RecExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4276E7882E5B75C600F5E05A /* SpyRecorderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpyRecorderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4276E7982E5B75C700F5E05A /* SpyRecorderAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpyRecorderAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4276E7A22E5B75C700F5E05A /* SpyRecorderAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpyRecorderAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4276E8CD2E5B8FE400F5E05A /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		4276E8CF2E5B8FE400F5E05A /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		4276E8EB2E5C7F6C00F5E05A /* Spy RecExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Spy RecExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4276E8B92E5B7CDD00F5E05A /* Exceptions for "SpyRecorderApp" folder in "SpyRecorderApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4276E7872E5B75C600F5E05A /* SpyRecorderApp */;
+		};
+		4276E9022E5C7F6D00F5E05A /* Exceptions for "Spy Rec" folder in "Spy RecExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4276E8EA2E5C7F6C00F5E05A /* Spy RecExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4276E78A2E5B75C600F5E05A /* SpyRecorderApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4276E8B92E5B7CDD00F5E05A /* Exceptions for "SpyRecorderApp" folder in "SpyRecorderApp" target */,
+			);
+			path = SpyRecorderApp;
+			sourceTree = "<group>";
+		};
+		4276E79B2E5B75C700F5E05A /* SpyRecorderAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SpyRecorderAppTests;
+			sourceTree = "<group>";
+		};
+		4276E7A52E5B75C700F5E05A /* SpyRecorderAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SpyRecorderAppUITests;
+			sourceTree = "<group>";
+		};
+		4276E8D12E5B8FE400F5E05A /* Spy Rec */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Spy Rec";
+			sourceTree = "<group>";
+		};
+		4276E8EE2E5C7F6C00F5E05A /* Spy Rec */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4276E9022E5C7F6D00F5E05A /* Exceptions for "Spy Rec" folder in "Spy RecExtension" target */,
+			);
+			path = "Spy Rec";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4276E7852E5B75C600F5E05A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4276E7952E5B75C700F5E05A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4276E79F2E5B75C700F5E05A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4276E8E82E5C7F6C00F5E05A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4276E8ED2E5C7F6C00F5E05A /* SwiftUI.framework in Frameworks */,
+				4276E8EC2E5C7F6C00F5E05A /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4276E77F2E5B75C600F5E05A = {
+			isa = PBXGroup;
+			children = (
+				4276E78A2E5B75C600F5E05A /* SpyRecorderApp */,
+				4276E79B2E5B75C700F5E05A /* SpyRecorderAppTests */,
+				4276E7A52E5B75C700F5E05A /* SpyRecorderAppUITests */,
+				4276E8D12E5B8FE400F5E05A /* Spy Rec */,
+				4276E8EE2E5C7F6C00F5E05A /* Spy Rec */,
+				4276E8CC2E5B8FE400F5E05A /* Frameworks */,
+				4276E7892E5B75C600F5E05A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4276E7892E5B75C600F5E05A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4276E7882E5B75C600F5E05A /* SpyRecorderApp.app */,
+				4276E7982E5B75C700F5E05A /* SpyRecorderAppTests.xctest */,
+				4276E7A22E5B75C700F5E05A /* SpyRecorderAppUITests.xctest */,
+				4276E8EB2E5C7F6C00F5E05A /* Spy RecExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4276E8CC2E5B8FE400F5E05A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4276E8CD2E5B8FE400F5E05A /* WidgetKit.framework */,
+				4276E8CF2E5B8FE400F5E05A /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4276E7872E5B75C600F5E05A /* SpyRecorderApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4276E7AC2E5B75C700F5E05A /* Build configuration list for PBXNativeTarget "SpyRecorderApp" */;
+			buildPhases = (
+				4276E7842E5B75C600F5E05A /* Sources */,
+				4276E7852E5B75C600F5E05A /* Frameworks */,
+				4276E7862E5B75C600F5E05A /* Resources */,
+				4276E8E62E5B8FE600F5E05A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4276E8FD2E5C7F6D00F5E05A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4276E78A2E5B75C600F5E05A /* SpyRecorderApp */,
+			);
+			name = SpyRecorderApp;
+			packageProductDependencies = (
+			);
+			productName = SpyRecorderApp;
+			productReference = 4276E7882E5B75C600F5E05A /* SpyRecorderApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4276E7972E5B75C700F5E05A /* SpyRecorderAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4276E7AF2E5B75C700F5E05A /* Build configuration list for PBXNativeTarget "SpyRecorderAppTests" */;
+			buildPhases = (
+				4276E7942E5B75C700F5E05A /* Sources */,
+				4276E7952E5B75C700F5E05A /* Frameworks */,
+				4276E7962E5B75C700F5E05A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4276E79A2E5B75C700F5E05A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4276E79B2E5B75C700F5E05A /* SpyRecorderAppTests */,
+			);
+			name = SpyRecorderAppTests;
+			packageProductDependencies = (
+			);
+			productName = SpyRecorderAppTests;
+			productReference = 4276E7982E5B75C700F5E05A /* SpyRecorderAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4276E7A12E5B75C700F5E05A /* SpyRecorderAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4276E7B22E5B75C700F5E05A /* Build configuration list for PBXNativeTarget "SpyRecorderAppUITests" */;
+			buildPhases = (
+				4276E79E2E5B75C700F5E05A /* Sources */,
+				4276E79F2E5B75C700F5E05A /* Frameworks */,
+				4276E7A02E5B75C700F5E05A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4276E7A42E5B75C700F5E05A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4276E7A52E5B75C700F5E05A /* SpyRecorderAppUITests */,
+			);
+			name = SpyRecorderAppUITests;
+			packageProductDependencies = (
+			);
+			productName = SpyRecorderAppUITests;
+			productReference = 4276E7A22E5B75C700F5E05A /* SpyRecorderAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		4276E8EA2E5C7F6C00F5E05A /* Spy RecExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4276E8FF2E5C7F6D00F5E05A /* Build configuration list for PBXNativeTarget "Spy RecExtension" */;
+			buildPhases = (
+				4276E8E72E5C7F6C00F5E05A /* Sources */,
+				4276E8E82E5C7F6C00F5E05A /* Frameworks */,
+				4276E8E92E5C7F6C00F5E05A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4276E8EE2E5C7F6C00F5E05A /* Spy Rec */,
+			);
+			name = "Spy RecExtension";
+			packageProductDependencies = (
+			);
+			productName = "Spy RecExtension";
+			productReference = 4276E8EB2E5C7F6C00F5E05A /* Spy RecExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4276E7802E5B75C600F5E05A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					4276E7872E5B75C600F5E05A = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					4276E7972E5B75C700F5E05A = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 4276E7872E5B75C600F5E05A;
+					};
+					4276E7A12E5B75C700F5E05A = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 4276E7872E5B75C600F5E05A;
+					};
+					4276E8EA2E5C7F6C00F5E05A = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = 4276E7832E5B75C600F5E05A /* Build configuration list for PBXProject "SpyRecorderApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4276E77F2E5B75C600F5E05A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4276E7892E5B75C600F5E05A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4276E7872E5B75C600F5E05A /* SpyRecorderApp */,
+				4276E7972E5B75C700F5E05A /* SpyRecorderAppTests */,
+				4276E7A12E5B75C700F5E05A /* SpyRecorderAppUITests */,
+				4276E8EA2E5C7F6C00F5E05A /* Spy RecExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4276E7862E5B75C600F5E05A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4276E7962E5B75C700F5E05A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4276E7A02E5B75C700F5E05A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4276E8E92E5C7F6C00F5E05A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4276E7842E5B75C600F5E05A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4276E7942E5B75C700F5E05A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4276E79E2E5B75C700F5E05A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4276E8E72E5C7F6C00F5E05A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4276E79A2E5B75C700F5E05A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4276E7872E5B75C600F5E05A /* SpyRecorderApp */;
+			targetProxy = 4276E7992E5B75C700F5E05A /* PBXContainerItemProxy */;
+		};
+		4276E7A42E5B75C700F5E05A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4276E7872E5B75C600F5E05A /* SpyRecorderApp */;
+			targetProxy = 4276E7A32E5B75C700F5E05A /* PBXContainerItemProxy */;
+		};
+		4276E8FD2E5C7F6D00F5E05A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4276E8EA2E5C7F6C00F5E05A /* Spy RecExtension */;
+			targetProxy = 4276E8FC2E5C7F6D00F5E05A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4276E7AA2E5B75C700F5E05A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = JTB74J4WN7;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4276E7AB2E5B75C700F5E05A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = JTB74J4WN7;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		4276E7AD2E5B75C700F5E05A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SpyRecorderApp/SpyRecorderApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JTB74J4WN7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SpyRecorderApp/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mozenrot.spyrecapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Debug;
+		};
+		4276E7AE2E5B75C700F5E05A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SpyRecorderApp/SpyRecorderApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JTB74J4WN7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SpyRecorderApp/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mozenrot.spyrecapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Release;
+		};
+		4276E7B02E5B75C700F5E05A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JTB74J4WN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mozenrot.spyrecapp.SpyRecorderAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpyRecorderApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpyRecorderApp";
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Debug;
+		};
+		4276E7B12E5B75C700F5E05A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JTB74J4WN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mozenrot.spyrecapp.SpyRecorderAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpyRecorderApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpyRecorderApp";
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Release;
+		};
+		4276E7B32E5B75C700F5E05A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JTB74J4WN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mozenrot.spyrecapp.SpyRecorderAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = SpyRecorderApp;
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Debug;
+		};
+		4276E7B42E5B75C700F5E05A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JTB74J4WN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mozenrot.spyrecapp.SpyRecorderAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = SpyRecorderApp;
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Release;
+		};
+		4276E9002E5C7F6D00F5E05A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JTB74J4WN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Spy Rec/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Spy Rec";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mozenrot.spyrecapp.Spy-Rec";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4276E9012E5C7F6D00F5E05A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JTB74J4WN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Spy Rec/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Spy Rec";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mozenrot.spyrecapp.Spy-Rec";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4276E7832E5B75C600F5E05A /* Build configuration list for PBXProject "SpyRecorderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4276E7AA2E5B75C700F5E05A /* Debug */,
+				4276E7AB2E5B75C700F5E05A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4276E7AC2E5B75C700F5E05A /* Build configuration list for PBXNativeTarget "SpyRecorderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4276E7AD2E5B75C700F5E05A /* Debug */,
+				4276E7AE2E5B75C700F5E05A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4276E7AF2E5B75C700F5E05A /* Build configuration list for PBXNativeTarget "SpyRecorderAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4276E7B02E5B75C700F5E05A /* Debug */,
+				4276E7B12E5B75C700F5E05A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4276E7B22E5B75C700F5E05A /* Build configuration list for PBXNativeTarget "SpyRecorderAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4276E7B32E5B75C700F5E05A /* Debug */,
+				4276E7B42E5B75C700F5E05A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4276E8FF2E5C7F6D00F5E05A /* Build configuration list for PBXNativeTarget "Spy RecExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4276E9002E5C7F6D00F5E05A /* Debug */,
+				4276E9012E5C7F6D00F5E05A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4276E7802E5B75C600F5E05A /* Project object */;
+}
