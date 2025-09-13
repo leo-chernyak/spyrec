@@ -16,6 +16,9 @@ struct RecordingView: View {
     @State private var animatePulse = false
     @State private var showStatus = false
     @State private var showCoverScreen = false
+    @State private var manager = InterstitialManager(
+           adUnitID: "ca-app-pub-2785489394463863/8954753916" // тестовый interstitial ID
+       )
 
     var isRecording: Bool {
         audioRecorder.isRecording || videoRecorder.isRecording
@@ -301,6 +304,12 @@ struct RecordingView: View {
             audioRecorder.stopRecording()
         } else {
             videoRecorder.stopRecording()
+        }
+        if let root = UIApplication.shared
+            .connectedScenes
+            .compactMap({ ($0 as? UIWindowScene)?.keyWindow })
+            .first?.rootViewController {
+            manager.show(from: root)
         }
     }
     

@@ -57,7 +57,7 @@ struct Spy_RecEntryView : View {
                         .font(.system(size: 16, weight: .bold))
                         .foregroundColor(.green)
                     
-                    Text("SPY REC")
+                    Text("SAFE REC")
                         .font(.system(size: 10, weight: .bold, design: .monospaced))
                         .foregroundColor(.green)
                         .tracking(1)
@@ -221,7 +221,7 @@ struct Spy_Rec: Widget {
                 ), for: .widget)
                 .ignoresSafeArea(.all)
         }
-        .configurationDisplayName("Spy Rec")
+        .configurationDisplayName("SAFE REC")
         .description("Quick access to recording features")
         .supportedFamilies([.systemSmall, .systemMedium])
     }

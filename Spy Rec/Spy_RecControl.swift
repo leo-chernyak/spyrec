@@ -56,7 +56,7 @@ struct Spy_RecControlEntryView: View {
                         .font(.system(size: 16, weight: .bold))
                         .foregroundColor(.green)
                     
-                    Text("SPY REC")
+                    Text("SAFE REC")
                         .font(.system(size: 10, weight: .bold, design: .monospaced))
                         .foregroundColor(.green)
                         .tracking(1)
@@ -121,7 +121,7 @@ struct Spy_RecControl: Widget {
                     endPoint: .bottomTrailing
                 ), for: .widget)
         }
-        .configurationDisplayName("Spy Rec Simple")
+        .configurationDisplayName("SAFE REC Simple")
         .description("Simple status widget")
         .supportedFamilies([.systemSmall])
     }

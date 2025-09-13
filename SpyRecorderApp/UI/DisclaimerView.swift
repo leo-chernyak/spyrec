@@ -49,6 +49,10 @@ struct DisclaimerView: View {
                 }
                 .padding(.horizontal, 20)
                 
+                AdBannerView(adUnitID: "ca-app-pub-2785489394463863/1247654289")
+                                .frame(width: 320, height: 50)
+                                .padding()
+                
                 Spacer()
                 
                 // Button

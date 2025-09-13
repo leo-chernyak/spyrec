@@ -16,7 +16,7 @@ struct LanguageSelectionView: View {
                 
                 // Header
                 VStack(spacing: 16) {
-                    Text("SPY REC")
+                    Text("SAFE REC")
                         .font(.system(size: 28, weight: .bold, design: .monospaced))
                         .foregroundColor(SpyTheme.primaryGreen)
                         .tracking(3)

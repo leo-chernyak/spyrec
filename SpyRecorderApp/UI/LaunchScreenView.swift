@@ -45,7 +45,7 @@ struct LaunchScreenView: View {
                 
                 // App Name
                 VStack(spacing: 8) {
-                    Text("SPY REC")
+                    Text("SAFE REC")
                         .font(.system(size: 32, weight: .bold, design: .monospaced))
                         .foregroundColor(SpyTheme.primaryGreen)
                         .tracking(4)

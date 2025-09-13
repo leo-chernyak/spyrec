@@ -6,6 +6,9 @@ struct ExportView: View {
     @State private var animateExport = false
     @State private var showShareSheet = false
     @State private var selectedFile: URL?
+    @State private var manager = InterstitialManager(
+            adUnitID: "ca-app-pub-2785489394463863/3375124173" // тестовый interstitial ID
+        )
     
     var body: some View {
         ZStack {
@@ -79,6 +82,12 @@ struct ExportView: View {
         .navigationBarHidden(true)
         .onAppear {
             // Force refresh of recordings list
+            if let root = UIApplication.shared
+                                .connectedScenes
+                                .compactMap({ ($0 as? UIWindowScene)?.keyWindow })
+                                .first?.rootViewController {
+                                manager.show(from: root)
+                            }
             storage.refreshRecordings()
             
             withAnimation(.easeOut(duration: 0.8).delay(0.2)) {

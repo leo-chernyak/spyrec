@@ -10,6 +10,7 @@
 		4276E8EC2E5C7F6C00F5E05A /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4276E8CD2E5B8FE400F5E05A /* WidgetKit.framework */; };
 		4276E8ED2E5C7F6C00F5E05A /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4276E8CF2E5B8FE400F5E05A /* SwiftUI.framework */; };
 		4276E8FE2E5C7F6D00F5E05A /* Spy RecExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4276E8EB2E5C7F6C00F5E05A /* Spy RecExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4276E9B12E71F8DA00F5E05A /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 4276E9B02E71F8DA00F5E05A /* GoogleMobileAds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4276E9B12E71F8DA00F5E05A /* GoogleMobileAds in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +201,7 @@
 			);
 			name = SpyRecorderApp;
 			packageProductDependencies = (
+				4276E9B02E71F8DA00F5E05A /* GoogleMobileAds */,
 			);
 			productName = SpyRecorderApp;
 			productReference = 4276E7882E5B75C600F5E05A /* SpyRecorderApp.app */;
@@ -307,6 +310,9 @@
 			);
 			mainGroup = 4276E77F2E5B75C600F5E05A;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				4276E9AA2E71F46200F5E05A /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 4276E7892E5B75C600F5E05A /* Products */;
 			projectDirPath = "";
@@ -524,12 +530,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = SpyRecorderApp/SpyRecorderApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = JTB74J4WN7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = SpyRecorderApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Safe Rec";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -544,7 +551,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mozenrot.spyrecapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
@@ -564,12 +571,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = SpyRecorderApp/SpyRecorderApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = JTB74J4WN7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = SpyRecorderApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Safe Rec";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -584,7 +592,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mozenrot.spyrecapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
@@ -697,7 +705,7 @@
 				DEVELOPMENT_TEAM = JTB74J4WN7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Spy Rec/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Spy Rec";
+				INFOPLIST_KEY_CFBundleDisplayName = "SAFE REC";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -705,7 +713,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mozenrot.spyrecapp.Spy-Rec";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -726,7 +734,7 @@
 				DEVELOPMENT_TEAM = JTB74J4WN7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Spy Rec/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Spy Rec";
+				INFOPLIST_KEY_CFBundleDisplayName = "SAFE REC";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -734,7 +742,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mozenrot.spyrecapp.Spy-Rec";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -795,6 +803,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4276E9AA2E71F46200F5E05A /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4276E9B02E71F8DA00F5E05A /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4276E9AA2E71F46200F5E05A /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4276E7802E5B75C600F5E05A /* Project object */;
 }

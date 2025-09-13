@@ -8,6 +8,10 @@
 import SwiftUI
 import AVFoundation
 import UIKit
+import GoogleMobileAds
+import AppTrackingTransparency
+import AdSupport
+
 
 /// App entry point for Spy Recorder. Provides a simple Tab UI and injects shared services.
 @main
@@ -22,6 +26,19 @@ struct SpyRecorderAppApp: App {
     @AppStorage("hasSeenOnboarding") private var hasSeenOnboarding: Bool = false
     @AppStorage("hasSelectedLanguage") private var hasSelectedLanguage: Bool = false
     @AppStorage("selectedLanguage") private var selectedLanguage: String = LocalizationManager.Language.english.rawValue
+    
+    init() {
+        // Инициализация SDK
+        MobileAds.shared.start(completionHandler: nil)
+        
+        
+        // (Опционально) запрос ATT после первого экрана
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+            if #available(iOS 14, *) {
+                ATTrackingManager.requestTrackingAuthorization { _ in }
+            }
+        }
+    }
 
     var body: some Scene {
         WindowGroup {

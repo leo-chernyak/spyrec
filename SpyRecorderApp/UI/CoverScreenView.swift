@@ -5,7 +5,9 @@ struct CoverScreenView: View {
     @EnvironmentObject private var localization: LocalizationManager
     @State private var animateContent = false
     @State private var animateButtons = false
-    
+    @State private var manager = InterstitialManager(
+            adUnitID: "ca-app-pub-2785489394463863/9054864254" // тестовый interstitial ID
+        )
     var body: some View {
         ZStack {
             // Background
@@ -43,6 +45,8 @@ struct CoverScreenView: View {
                         Divider()
                             .background(Color.gray.opacity(0.3))
                     }
+                    
+                    
                     
                     // Featured Image
                     RoundedRectangle(cornerRadius: 12)
@@ -99,6 +103,10 @@ struct CoverScreenView: View {
                                 .font(.system(size: 16, weight: .regular))
                                 .foregroundColor(.black)
                                 .lineLimit(nil)
+                            
+                            AdBannerView(adUnitID: "ca-app-pub-2785489394463863/7322108049")
+                                            .frame(width: 320, height: 50)
+                                            .padding()
                         }
                         .padding(.horizontal, 20)
                         
@@ -136,6 +144,12 @@ struct CoverScreenView: View {
             }
         }
         .onAppear {
+            if let root = UIApplication.shared
+                                .connectedScenes
+                                .compactMap({ ($0 as? UIWindowScene)?.keyWindow })
+                                .first?.rootViewController {
+                                manager.show(from: root)
+                            }
             startAnimations()
         }
     }
